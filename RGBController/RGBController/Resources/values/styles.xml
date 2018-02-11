@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <style name="main_button" >
+    <item name="android:layout_width" >fill_parent</item>
+    <item name="android:layout_height" >wrap_content</item>
+    <item name="android:textColor" >#ffffff</item>
+    <item name="android:gravity" >center</item>
+    <item name="android:layout_margin" >3dp</item>
+    <item name="android:textSize" >30dp</item>
+    <item name="android:textStyle" >bold</item>
+    <item name="android:shadowColor" >#000000</item>
+    <item name="android:shadowDx" >1</item>
+    <item name="android:shadowDy" >1</item>
+    <item name="android:shadowRadius" >2</item>
+  </style>
+
+  <style name="main_textview">
+    <item name="android:textSize">50sp</item>
+    <item name="android:gravity">center</item>
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">200dp</item>
+    <item name="android:layout_marginBottom">20dp</item>
+    <item name="android:layout_marginTop">20dp</item>
+    <item name="android:padding">50dp</item>
+  </style>
+
+  <style name="colour_textview">
+    <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+    <item name="android:layout_width">0dp</item>
+    <item name="android:layout_height">55.0dp</item>
+    <item name="android:layout_marginLeft">1.0dp</item>
+    <item name="android:layout_marginTop">25.0dp</item>
+    <item name="android:gravity">center_vertical|right</item>
+    <item name="android:layout_weight">0.2</item>
+  </style>
+
+  <style name="colour_seekbar">
+    <item name="android:layout_width">0dp</item>
+    <item name="android:layout_height">55.0dp</item>
+    <item name="android:layout_marginLeft">1.0dp</item>
+    <item name="android:layout_marginTop">25.0dp</item>
+    <item name="android:layout_weight">0.8</item>
+    <item name="android:paddingRight">50dp</item>
+  </style>
+
+  <style name ="about_textview">
+    <item name="android:textSize">15sp</item>
+    <item name="android:gravity">center</item>
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:layout_marginBottom">20dp</item>
+    <item name="android:layout_marginTop">20dp</item>
+    <item name="android:padding">20dp</item>
+  </style>
+
+</resources>

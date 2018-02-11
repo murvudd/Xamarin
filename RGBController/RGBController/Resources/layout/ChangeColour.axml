@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:rowCount="4"
+    android:columnCount="1"
+    tools:gridSpec="1|32|#0093eeff|K:#ee8700ff:|S:#83ee00ff:">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="25px"
+        android:minHeight="25px">
+        <TextView
+            android:text="R 0"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textViewR"
+            android:textColor="#ffff0080"
+            style="@style/colour_textview" />
+        <SeekBar
+            android:id="@+id/seekBarRed"
+            android:progressTint="#ffff0080"
+            android:thumbTint="#ffff0080"
+            style="@style/colour_seekbar" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="25px"
+        android:minHeight="25px">
+        <TextView
+            android:text="G 0"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textViewG"
+            android:textColor="#ff00ff80"
+            style="@style/colour_textview" />
+        <SeekBar
+            android:id="@+id/seekBarGreen"
+            android:progressTint="#ff00ff80"
+            android:thumbTint="#ff00ff80"
+            style="@style/colour_seekbar" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="25px"
+        android:minHeight="25px">
+        <TextView
+            android:text="B 0"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textViewB"
+            android:textColor="#ff0080ff"
+            style="@style/colour_textview" />
+        <SeekBar
+            android:id="@+id/seekBarBlue"
+            android:progressTint="#ff0080ff"
+            android:thumbTint="#ff0080ff"
+            style="@style/colour_seekbar" />
+    </LinearLayout>
+</GridLayout>

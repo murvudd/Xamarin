@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="Projekt kontrolera paska LED RGB"
+        style="@style/about_textview" />
+    <TextView
+        android:text="docelowo ma służyć do łączenia się z modułem esp8266. W tym momencie łączę się z serverem z innego projektu za pomocą signalr. Na bieżąco wysyłam zmiany seekbara danego koloru."
+        style="@style/about_textview" />
+    <TextView
+        android:text="w repo znajduję się klient konsolowy do sprawdzenia że apka działa"
+        style="@style/about_textview" />
+</LinearLayout>
