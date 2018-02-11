@@ -12,4 +12,6 @@
     <TextView
         android:text="w repo znajduję się klient konsolowy do sprawdzenia że apka działa"
         style="@style/about_textview" />
+  
+  
 </LinearLayout>

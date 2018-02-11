@@ -63,4 +63,16 @@
             android:thumbTint="#ff0080ff"
             style="@style/colour_seekbar" />
     </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="25px"
+        android:minHeight="25px">
+        <Button
+            android:id="@+id/ColourBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:background="@android:color/background_dark" />
+    </LinearLayout>
 </GridLayout>

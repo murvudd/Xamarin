@@ -15,6 +15,7 @@ namespace RGBController
     [Activity(Label = "LogIn")]
     public class LogIn : Activity
     {
+        public string serverURL;
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -22,6 +23,14 @@ namespace RGBController
             // Create your application here
 
             SetContentView(Resource.Layout.LogIn);
+
+            Button savebtn= FindViewById<Button>(Resource.Id.loginBtnSave);
+            savebtn.Click += (o, e) => {
+                serverURL = FindViewById<EditText>(Resource.Id.LogIn_EditText1).Text;
+                var activity = new Intent(this, typeof(ChangeColour));
+                activity.PutExtra("MyData", serverURL);
+                StartActivity(activity);
+            };
         }
     }
 }

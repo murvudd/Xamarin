@@ -10,16 +10,16 @@
     <Button
         android:text="Change Colour"
         android:id="@+id/mainbtn1"
-        android:onClick="ButtonClick"
+        android:onClick="ButtonClick1"
         style="@style/main_button" />
     <Button
         android:text="LogIn"
         android:id="@+id/mainbtn2"
-        android:onClick="ButtonClick"
+        android:onClick="ButtonClick2"
         style="@style/main_button" />
     <Button
         android:text="About"
         android:id="@+id/mainbtn3"
-        android:onClick="ButtonClick"
+        android:onClick="ButtonClick3"
         style="@style/main_button" />
 </LinearLayout>

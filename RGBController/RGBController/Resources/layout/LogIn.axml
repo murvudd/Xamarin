@@ -2,6 +2,25 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <TextView
+        android:text="Server Adress"
+        style="@style/about_textview" />
+    <EditText
+        android:text="http://kolejkomatapp4.azurewebsites.net/signalr/hubs"
+        android:id="@+id/LogIn_EditText1"
+        style="@style/about_textview" />
+    <GridLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:rowCount="1"
+        android:columnCount="1" />
+    <Button
+        android:text="Save"
+        android:id="@+id/loginBtnSave"
+        android:onClick="ButtonClick"
+        style="@style/main_button" />
 </LinearLayout>
